@@ -23,6 +23,7 @@ const INITIAL_SECTION: RCSection = {
   cover: 40,
 };
 
+
 export default function App() {
 
   const [section, setSection] = useState<RCSection>(INITIAL_SECTION);
